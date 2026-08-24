@@ -105,6 +105,7 @@ h1 span { color: var(--teal); }
 .project-card.featured { background: #f3f0e6; color: var(--navy); border-color: #f3f0e6; }
 .project-card.hidden { display: none; }
 .project-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.project-status { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
 .project-number { font: 700 12px ui-monospace, SFMono-Regular, Menlo, monospace; color: #8ca3af; }
 .pill { padding: 6px 10px; border-radius: 999px; font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: .05em; }
 .pill.complete { background: var(--mint); color: var(--navy); }
